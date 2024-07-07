@@ -6,7 +6,7 @@
 
 button {
   color: white;
-  border: none;
+  border: 1px solid white;
   padding: 10px;
   text-align: center;
   text-decoration: none;
@@ -56,24 +56,23 @@ button {
 /*hero*/
 
 .hero-container {
-  padding: 100px;
+  padding: 5%;
   display: flex;
   justify-content: center;
 }
 
 .hero {
-  width: 90%;
-  padding: 20px;
+  width: 80%;
   display: flex;
   justify-content: space-between;
 }
 
 .hero-text {
+  padding: 5%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: flex-start;
-
 }
 
 .hero-text h1 {
@@ -83,5 +82,109 @@ button {
 
 .hero-text p {
   font-size: 18px;
+  color: #e5e7eb;
+}
+
+/*info*/
+
+.info-container {
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  width: 75%;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-title {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 800px;
+  display: flex;
+  justify-content: center;
+}
+
+.info-carousel-container {
+  display: flex;
+  justify-content: center;
+}
+
+.info-carousel {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-carousel-item {
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-carousel-item img {
+  border: 1px solid blue;
+  border-radius: 20%;
+}
+
+.info-carousel-item p {
+  font-size: 18px;
+  color: darkgrey;
+}
+
+/*quote*/
+
+.quote-container {
+  background-color: #e5e7eb;
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.quote {
+  width: 55%;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+}
+
+.quote-text {
+  display: flex;
+  font-size: 36px;
+  font-weight: 250;
+  font-style: italic;
+  color: #1f2937;
+  justify-content: flex-start;
+}
+
+.quote-attr {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*footer*/
+
+.footer-container {
+  display: flex;
+  padding: 5%;
+  justify-content: center;
+}
+
+.footer {
+  padding: 5%;
+  background-color: #3882f6;
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-text-h3 {
+  font-size: 22px;
+  color: #f9faf8;
+}
+
+.footer-text-p {
   color: #e5e7eb;
 }
