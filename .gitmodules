@@ -1,3 +1,6 @@
 [submodule "foundations/css-exercises"]
 	path = foundations/css-exercises
 	url = https://github.com/samjtro/css-exercises
+[submodule "foundations/javascript-exercises"]
+	path = foundations/javascript-exercises
+	url = https://github.com/samjtro/javascript-exercises
